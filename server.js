@@ -45,7 +45,7 @@ app.post('/submitForm', (req, res) => {
         Thank you for contacting us at Brighter Skies Cleaning.
         I will contact you via this email address over the next few days. Looking forward to it 😀,
         Sincerely,
-            Rhett B @ Brighter Skies Cleaning
+            Brighter Skies Cleaning
             www.brighterskiescleaning.com
         ${message}`,
         // for most emails
@@ -53,7 +53,7 @@ app.post('/submitForm', (req, res) => {
         <h4>Hi ${name}!</h4>
         <p>Thank you for contacting us at Brighter Skies Cleaning. I will contact you via this email address over the next few days. Looking forward to it 😀, <br/>
         Sincerely, </p>
-        <p style="margin-left: 20px;">Rhett B @ <span style="font-weight: bold;">Brighter Skies Cleaning</span></p>
+        <p style="margin-left: 20px;"><span style="font-weight: bold;">Brighter Skies Cleaning</span></p>
         <a href="https://www.brighterskiescleaning.com" target="_blank">www.brighterskiescleaning.com</a>
         <br/>
         <p>"${message}"</p>`,
